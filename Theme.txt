@@ -31,3 +31,6 @@ Vimix Cursors
 Splash Screen
 https://store.kde.org/p/1787957
 1604-Arch-Splash
+
+Task Switcher Visualization
+Thumbnail Grid
