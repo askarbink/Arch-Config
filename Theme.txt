@@ -7,8 +7,8 @@ https://store.kde.org/p/1229134
 Materia
 
 Colors
-https://store.kde.org/p/1398831
-WhiteSurDark
+https://store.kde.org/p/1325239
+Layan
 
 Window Decorations
 https://store.kde.org/p/1393497
