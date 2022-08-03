@@ -1,0 +1,6 @@
+sudo pacman -S *
+
+flatpak
+git
+obs-studio
+telegram-desktop
