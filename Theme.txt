@@ -1,0 +1,33 @@
+GNOME/GTK Application Style
+https://store.kde.org/p/1253385
+Sweet-Dark
+
+Plasma Style
+https://store.kde.org/p/1352754
+ROUNDED COLOR
+
+Colors
+https://store.kde.org/p/1398831
+WhiteSurDark
+
+Window Decorations
+https://store.kde.org/p/1393497
+Sweet-Mars
+
+Fonts
+https://fonts.google.com/specimen/Roboto+Flex
+Roboto Flex
+https://fonts.google.com/specimen/Roboto+Mono
+Roboto Mono
+
+Icons
+https://store.kde.org/p/1405756
+WhiteSur-dark
+
+Cursors
+https://store.kde.org/p/1358330
+Vimix Cursors
+
+Splash Screen
+https://store.kde.org/p/1787957
+1604-Arch-Splash
