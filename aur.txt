@@ -1,0 +1,9 @@
+cd Desktop
+git clone https://aur.archlinux.org/*.git
+cd *
+makepkg -si
+
+authy
+github-desktop-bin
+google-chrome
+visual-studio-code-bin
