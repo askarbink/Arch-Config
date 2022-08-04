@@ -1,5 +1,11 @@
 sudo systemctl enable bluetooth
 
+sudo pacman -S gcc extra-cmake-modules plasma-framework gettext kdecoration
+cd Desktop
+git clone https://github.com/psifidotos/applet-window-buttons.git
+cd applet-window-buttons
+sh install.sh
+
 /* ~/.config/kwinrc
 [Windows]
 BorderlessMaximizedWindows=true
