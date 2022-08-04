@@ -1,5 +1,10 @@
 sudo systemctl enable bluetooth
 
+/* ~/.config/kwinrc
+[Windows]
+BorderlessMaximizedWindows=true
+*/
+
 xbindkeys --defaults > /home/askarbink/.xbindkeysrc
 /* ~/.xbindkeysrc
 "echo -n | xsel -n -i; pkill xbindkeys; xdotool click 2; xbindkeys"  
