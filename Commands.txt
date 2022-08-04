@@ -1,8 +1,8 @@
 sudo systemctl enable bluetooth
 
 xbindkeys --defaults > /home/askarbink/.xbindkeysrc
-/*
+/* ~/.xbindkeysrc
 "echo -n | xsel -n -i; pkill xbindkeys; xdotool click 2; xbindkeys"  
 b:2 + Release
-*/
+remove “ + Release” */
 xbindkeys -p
