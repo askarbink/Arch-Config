@@ -6,3 +6,6 @@ git
 latte-dock
 obs-studio
 telegram-desktop
+xbindkeys
+xdotool
+xsel
