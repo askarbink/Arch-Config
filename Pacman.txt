@@ -2,6 +2,6 @@ sudo pacman -S *
 
 flatpak
 git
-kwin
+latte-dock
 obs-studio
 telegram-desktop
