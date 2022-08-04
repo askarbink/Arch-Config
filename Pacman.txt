@@ -1,11 +1,13 @@
 sudo pacman -S *
 
+(latte-dock)
+(xdotool)
+(xsel)
 discord
 flatpak
 git
-latte-dock
+gwenview
 obs-studio
 telegram-desktop
+vlc
 xbindkeys
-xdotool
-xsel
