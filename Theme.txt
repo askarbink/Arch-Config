@@ -25,8 +25,11 @@ https://store.kde.org/p/1405756
 WhiteSur-dark
 
 Cursors
-https://store.kde.org/p/1358330
-Vimix Cursors
+https://store.kde.org/p/1197198
+Bibata
+https://store.kde.org/p/1445634
+Bibata Rainbow
+v1.1.2
 
 Splash Screen
 https://store.kde.org/p/1787957
