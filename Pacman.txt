@@ -6,6 +6,7 @@ sudo pacman -S *
 discord
 flatpak
 git
+gnome-font-viewer
 gwenview
 obs-studio
 telegram-desktop
