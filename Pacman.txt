@@ -1,5 +1,6 @@
 sudo pacman -S *
 
+discord
 flatpak
 git
 latte-dock
