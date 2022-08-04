@@ -1,14 +1,12 @@
 sudo pacman -S *
 
-(latte-dock)
-(xdotool)
-(xsel)
 discord
-flatpak
 git
 gnome-font-viewer
 gwenview
-obs-studio
+latte-dock
+obs-studio flatpak
 telegram-desktop
 vlc
-xbindkeys
+xbindkeys xdotool xsel
+(wine winetricks)
