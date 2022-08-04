@@ -1,28 +1,28 @@
 GNOME/GTK Application Style
-https://store.kde.org/p/1253385
 Sweet-Dark
+https://store.kde.org/p/1253385
 
 Plasma Style
-https://store.kde.org/p/1229134
 Materia
+https://store.kde.org/p/1229134
 
 Colors
-https://store.kde.org/p/1325239
 Layan
+https://store.kde.org/p/1325239
 
 Window Decorations
-https://store.kde.org/p/1393497
 Sweet-Mars
+https://store.kde.org/p/1393497
 
 Fonts
-https://fonts.google.com/specimen/Roboto+Flex
 Roboto Flex
-https://fonts.google.com/specimen/Roboto+Mono
+https://fonts.google.com/specimen/Roboto+Flex
 Roboto Mono
+https://fonts.google.com/specimen/Roboto+Mono
 
 Icons
-https://store.kde.org/p/1405756
 WhiteSur-dark
+https://store.kde.org/p/1405756
 
 Cursors
 Bibata by Kaiz
@@ -30,8 +30,8 @@ https://store.kde.org/p/1197198
 v1.1.2
 
 Splash Screen
-https://store.kde.org/p/1787957
-1604-Arch-Splash
+Arch Simple Blue by dancp
+https://store.kde.org/p/1312961
 
 Task Switcher Visualization
 Thumbnail Grid
