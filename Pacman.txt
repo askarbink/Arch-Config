@@ -1,10 +1,10 @@
 sudo pacman -S *
 
+--needed base-devel git
 (pipewire-pulse)
 (wine winetricks)
 discord
 flameshot
-git
 gnome-font-viewer
 gwenview
 latte-dock
