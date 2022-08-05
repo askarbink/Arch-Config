@@ -1,4 +1,5 @@
 sudo systemctl enable bluetooth
+sudo chmod -R u+w /var/lib/bluetooth
 
 sudo pacman -S gcc extra-cmake-modules plasma-framework gettext kdecoration
 cd Desktop
