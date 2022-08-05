@@ -1,3 +1,9 @@
+sudo pacman -S --needed base-devel git
+cd Desktop
+git glone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+
 sudo systemctl enable bluetooth
 sudo chmod -R u+w /var/lib/bluetooth
 

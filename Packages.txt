@@ -1,6 +1,5 @@
-sudo pacman -S *
+yay -Ss ...
 
---needed base-devel git
 (pipewire-pulse)
 (wine winetricks)
 discord
@@ -12,3 +11,13 @@ obs-studio flatpak
 telegram-desktop
 vlc
 xbindkeys xdotool xsel
+
+
+yay -S ...
+
+authy
+davinci-resolve
+github-desktop-bin
+google-chrome
+visual-studio-code-bin
+zoom
