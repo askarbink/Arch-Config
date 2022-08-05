@@ -8,3 +8,4 @@ davinci-resolve
 github-desktop-bin
 google-chrome
 visual-studio-code-bin
+zoom
