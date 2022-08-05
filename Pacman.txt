@@ -1,6 +1,9 @@
 sudo pacman -S *
 
+(pipewire-pulse)
+(wine winetricks)
 discord
+flameshot
 git
 gnome-font-viewer
 gwenview
@@ -9,4 +12,3 @@ obs-studio flatpak
 telegram-desktop
 vlc
 xbindkeys xdotool xsel
-(wine winetricks)
