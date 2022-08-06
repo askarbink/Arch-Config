@@ -4,6 +4,10 @@ git glone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
+/* /etc/security/faillock.conf
+deny = 10
+*/
+
 sudo systemctl enable bluetooth
 sudo chmod -R u+w /var/lib/bluetooth
 
