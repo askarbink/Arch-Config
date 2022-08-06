@@ -4,6 +4,18 @@ git glone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
+sudo nano /etc/pacman.conf
+(remove “#” before “[multilib]” and “Include”)
+
+sudo pacman-key --init
+sudo pacman-key --populate archlinux
+sudo pacman-key --refresh-keys
+sudo pacman -Sy
+
+/* AMD
+sudo pacman -S mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
+*/
+
 /* /etc/security/faillock.conf
 deny = 10
 */
