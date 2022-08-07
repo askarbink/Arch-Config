@@ -1,7 +1,6 @@
 yay -Ss ...
 
 (pipewire-pulse)
-(wine winetricks)
 discord
 flameshot
 gnome-font-viewer
@@ -11,6 +10,7 @@ minecraft-launcher
 obs-studio flatpak
 telegram-desktop
 vlc
+wine wineetricks wine-mono
 xbindkeys xdotool xsel
 
 

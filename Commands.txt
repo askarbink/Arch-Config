@@ -38,6 +38,13 @@ BorderlessMaximizedWindows=true
 */
 qdbus org.kde.KWin /KWin reconfigure
 
+cd Desktop
+git clone https://github.com/CSMarckitus/Photoshop
+git clone https://gitlab.com/csmarckitus1/photoshop
+cd photoshop
+make
+./Photoshop2020
+
 xbindkeys --defaults > /home/askarbink/.xbindkeysrc
 /* ~/.xbindkeysrc
 "echo -n | xsel -n -i; pkill xbindkeys; xdotool click 2; xbindkeys"  
