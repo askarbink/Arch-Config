@@ -1,14 +1,17 @@
 yay -Ss ...
 
 (pipewire-pulse)
+blender
 discord
 flameshot
 gnome-font-viewer
 gwenview
 inkscape
+kvantum
 latte-dock
 minecraft-launcher
 obs-studio flatpak
+python-pip
 telegram-desktop
 vlc
 wine wineetricks wine-mono
