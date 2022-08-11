@@ -1,18 +1,14 @@
 GNOME/GTK Application Style
-Sweet-Dark
-https://store.kde.org/p/1253385
+...
 
 Plasma Style
-Materia
-https://store.kde.org/p/1229134
+...
 
 Colors
-Layan
-https://store.kde.org/p/1325239
+...
 
 Window Decorations
-Sweet-Mars
-https://store.kde.org/p/1393497
+...
 
 Fonts
 Roboto Flex
@@ -21,8 +17,7 @@ Roboto Mono
 https://fonts.google.com/specimen/Roboto+Mono
 
 Icons
-WhiteSur-dark
-https://store.kde.org/p/1405756
+...
 
 Cursors
 Bibata by Kaiz
@@ -35,3 +30,4 @@ https://store.kde.org/p/1312961
 
 Task Switcher Visualization
 Thumbnail Grid
+Compact
