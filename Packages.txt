@@ -1,32 +1,33 @@
-yay -Ss ...
+Pacman
 
+(blender)
 (pipewire-pulse)
-blender
+(wine winetricks)
 discord
 flameshot
 gnome-font-viewer
 gwenview
 inkscape
 kdeconnect
-kvantum
+kvantum kvantum-theme-materia materia-gtk-theme
 latte-dock
 minecraft-launcher
 obs-studio flatpak
 python-pip
 telegram-desktop
 vlc
-wine winetricks
 xbindkeys xdotool xsel
 
-yay -S ...
 
+AUR
+
+(davinci-resolve)
+(heroic-games-launcher)
+(legendary)
+(steam)
 authy
-davinci-resolve
 github-desktop-bin
 google-chrome
-heroic-games-launcher
-legendary
 onlyoffice-bin
-steam
 visual-studio-code-bin
 zoom
