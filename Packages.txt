@@ -7,6 +7,7 @@ flameshot
 gnome-font-viewer
 gwenview
 inkscape
+kdeconnect
 kvantum
 latte-dock
 minecraft-launcher
@@ -25,6 +26,7 @@ github-desktop-bin
 google-chrome
 heroic-games-launcher
 legendary
+onlyoffice-bin
 steam
 visual-studio-code-bin
 zoom
