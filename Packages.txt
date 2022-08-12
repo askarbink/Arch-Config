@@ -15,7 +15,7 @@ obs-studio flatpak
 python-pip
 telegram-desktop
 vlc
-wine wineetricks wine-mono
+wine winetricks
 xbindkeys xdotool xsel
 
 yay -S ...
