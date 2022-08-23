@@ -2,13 +2,14 @@ Pacman
 
 (blender)
 (pipewire-pulse)
-(wine winetricks)
 discord
 flameshot
 gnome-font-viewer
 gwenview
 inkscape
 kdeconnect
+kdenlive mediainfo
+krita
 kvantum kvantum-theme-materia materia-gtk-theme
 latte-dock
 minecraft-launcher
