@@ -8,8 +8,10 @@ inkscape
 kdeconnect
 latte-dock
 minecraft-launcher
+neofetch
 obs-studio flatpak
 python-pip
+sudo
 telegram-desktop
 vim
 vlc
