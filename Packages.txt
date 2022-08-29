@@ -1,34 +1,35 @@
 Pacman
 
-(blender)
-(pipewire-pulse)
 discord
 flameshot
 gnome-font-viewer
 gwenview
 inkscape
 kdeconnect
-kdenlive mediainfo
-krita
-kvantum kvantum-theme-materia materia-gtk-theme
 latte-dock
 minecraft-launcher
 obs-studio flatpak
 python-pip
 telegram-desktop
 vlc
-xbindkeys xdotool xsel
+(blender)
+(kdenlive mediainfo)
+(krita)
+(kvantum kvantum-theme-materia materia-gtk-theme)
+(pipewire-pulse)
+(xbindkeys xdotool xsel)
 
 
 AUR
 
-(davinci-resolve)
-(heroic-games-launcher)
-(legendary)
-(steam)
 authy
+bombsquad
 github-desktop-bin
 google-chrome
 onlyoffice-bin
 visual-studio-code-bin
 zoom
+(davinci-resolve)
+(heroic-games-launcher)
+(legendary)
+(steam)
