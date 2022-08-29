@@ -11,6 +11,7 @@ minecraft-launcher
 obs-studio flatpak
 python-pip
 telegram-desktop
+vim
 vlc
 (blender)
 (kdenlive mediainfo)
