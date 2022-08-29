@@ -1,6 +1,7 @@
 Pacman
 
 discord
+dhcpcd
 flameshot
 git
 gnome-font-viewer
@@ -11,7 +12,6 @@ kdeconnect
 latte-dock
 minecraft-launcher
 neofetch
-networkmanager
 obs-studio flatpak
 python-pip
 sudo
