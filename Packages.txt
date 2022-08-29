@@ -3,6 +3,7 @@ Pacman
 discord
 flameshot
 gnome-font-viewer
+grub
 gwenview
 inkscape
 kdeconnect
