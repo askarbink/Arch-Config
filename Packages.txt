@@ -2,8 +2,9 @@ Pacman
 
 discord
 flameshot
+git
 gnome-font-viewer
-grub
+grub dosfstools efibootmgr mtools os-prober
 gwenview
 inkscape
 kdeconnect
