@@ -2,7 +2,6 @@ Pacman
 
 discord
 dhcpcd
-flameshot
 git
 gnome-font-viewer
 grub dosfstools efibootmgr mtools os-prober
@@ -14,6 +13,7 @@ minecraft-launcher
 neofetch
 obs-studio flatpak
 python-pip
+spectacle
 sudo
 telegram-desktop
 vim
