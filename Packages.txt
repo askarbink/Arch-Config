@@ -1,29 +1,22 @@
 Pacman
 
 discord
-dhcpcd
-git
 gnome-font-viewer
-grub dosfstools efibootmgr mtools os-prober
 gwenview
 inkscape
 kdeconnect
 latte-dock
 minecraft-launcher
-neofetch
 obs-studio flatpak
 python-pip
 spectacle
-sudo
 telegram-desktop
 ttf-roboto-mono
-vim
 vlc
 (blender)
 (kdenlive mediainfo)
 (krita)
 (kvantum kvantum-theme-materia materia-gtk-theme)
-(pipewire-pulse)
 (xbindkeys xdotool xsel)
 
 
