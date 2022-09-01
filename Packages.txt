@@ -16,6 +16,7 @@ python-pip
 spectacle
 sudo
 telegram-desktop
+ttf-roboto-mono
 vim
 vlc
 (blender)
@@ -33,6 +34,7 @@ bombsquad
 github-desktop-bin
 google-chrome
 onlyoffice-bin
+ttf-google-sans
 visual-studio-code-bin
 zoom
 (davinci-resolve)
