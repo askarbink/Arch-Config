@@ -64,6 +64,7 @@ AUR
     bibata-cursor-theme
     bombsquad
     !google-chrome
+    kde-rounded-corners
     minecraft-launcher
     ttf-google-sans
     !visual-studio-code-bin
