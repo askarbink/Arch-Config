@@ -60,6 +60,7 @@ Pacman
 
 AUR
     authy
+    bibata-cursor-theme
     bombsquad
     !google-chrome
     minecraft-launcher
