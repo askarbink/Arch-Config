@@ -1,4 +1,8 @@
 Pre-Installed
+    base
+    linux
+    linux-firmware
+
     *amd-ucode
     base-devel
     bc
