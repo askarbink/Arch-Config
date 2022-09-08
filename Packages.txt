@@ -48,7 +48,7 @@ Pre-Installed
 
 Pacman
     discord
-    inkscape
+    *inkscape
     *kdenlive mediainfo
     *krita
     *kvantum
