@@ -53,16 +53,17 @@ Pacman
     *krita
     *kvantum
     obs-studio
-    telegram-desktop
+    !telegram-desktop
     ttf-roboto-mono
     *vlc
     *xbindkeys xdotool xsel
 
 AUR
+    !yay
     authy
     bombsquad
-    google-chrome
+    !google-chrome
     minecraft-launcher
     ttf-google-sans
-    visual-studio-code-bin
+    !visual-studio-code-bin
     zoom
