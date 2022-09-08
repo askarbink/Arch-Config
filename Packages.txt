@@ -1,6 +1,6 @@
 Pre-Installed
     *amd-ucode
-    base-develaritim-dark-kde-git
+    base-devel
     bc
     bluez
     dosfstools
