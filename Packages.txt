@@ -60,6 +60,8 @@ Pacman
     *xbindkeys xdotool xsel
 
 AUR
+    aritim-dark-gtk-git
+    aritim-dark-kde-git
     authy
     bibata-cursor-theme
     bombsquad
