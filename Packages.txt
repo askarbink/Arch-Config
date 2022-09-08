@@ -59,11 +59,11 @@ Pacman
     *xbindkeys xdotool xsel
 
 AUR
-    !yay
     authy
     bombsquad
     !google-chrome
     minecraft-launcher
     ttf-google-sans
     !visual-studio-code-bin
+    !yay
     zoom
