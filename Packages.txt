@@ -52,7 +52,6 @@ Pacman
     *kdenlive mediainfo
     *krita
     *kvantum
-    minecraft-launcher
     obs-studio
     telegram-desktop
     ttf-roboto-mono
@@ -63,6 +62,7 @@ AUR
     authy
     bombsquad
     google-chrome
+    minecraft-launcher
     ttf-google-sans
     visual-studio-code-bin
     zoom
