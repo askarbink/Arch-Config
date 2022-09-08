@@ -1,36 +1,68 @@
+Pre-Installed
+    *amd-ucode
+    base-devel
+    bc
+    bluez
+    dosfstools
+    efibootmgr
+    *intel-ucode
+    grub
+    linux-headers
+    mtools
+    networkmanager
+    ntfs-3g
+    os-prober
+    vim
+
+    *nvidia
+    *nvidia-settings
+    *libva-mesa-driver
+    *vulkan-radeon
+    *xf86-video-ati
+
+    ark
+    dolphin
+    *egl-wayland
+    flatpak
+    git
+    gnome-font-viewer
+    gst-plugin-pipewire
+    gwenview
+    kdeconnect
+    konsole
+    latte-dock
+    libdbusmenu-glib
+    libdbusmenu-gtk2
+    libdbusmenu-gtk3
+    neofetch
+    pipewire
+    pipewire-alsa
+    pipewire-jack
+    pipewire-pulse
+    plasma-meta
+    plasma-wayland-session
+    plasma5-applets-window-buttons
+    python-pip
+    sddm
+    spectacle
+
 Pacman
-
-discord
-gnome-font-viewer
-gwenview
-inkscape
-kdeconnect
-latte-dock
-minecraft-launcher
-obs-studio flatpak
-python-pip
-spectacle
-telegram-desktop
-ttf-roboto-mono
-vlc
-(blender)
-(kdenlive mediainfo)
-(krita)
-(kvantum kvantum-theme-materia materia-gtk-theme)
-(xbindkeys xdotool xsel)
-
+    discord
+    inkscape
+    *kdenlive mediainfo
+    *krita
+    *kvantum
+    minecraft-launcher
+    obs-studio
+    telegram-desktop
+    ttf-roboto-mono
+    *vlc
+    *xbindkeys xdotool xsel
 
 AUR
-
-authy
-bombsquad
-github-desktop-bin
-google-chrome
-onlyoffice-bin
-ttf-google-sans
-visual-studio-code-bin
-zoom
-(davinci-resolve)
-(heroic-games-launcher)
-(legendary)
-(steam)
+    authy
+    bombsquad
+    google-chrome
+    ttf-google-sans
+    visual-studio-code-bin
+    zoom
