@@ -53,6 +53,7 @@ Pacman
     *krita
     *kvantum
     obs-studio
+    papirus-icon-theme
     !telegram-desktop
     ttf-roboto-mono
     *vlc
