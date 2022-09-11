@@ -43,7 +43,6 @@ Pre-Installed
     neofetch
     pipewire
     pipewire-alsa
-    pipewire-jack
     pipewire-pulse
     plasma-meta
     plasma-wayland-session
