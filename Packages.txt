@@ -38,6 +38,8 @@ Pre-Installed
     libdbusmenu-glib
     libdbusmenu-gtk2
     libdbusmenu-gtk3
+    libdbusmenu-qt5
+    libdbusmenu-qt6
     neofetch
     pipewire
     pipewire-alsa
