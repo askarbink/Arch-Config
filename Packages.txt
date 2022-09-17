@@ -27,14 +27,15 @@ Pre-Installed
     ark
     dolphin
     *egl-wayland
+    elisa
     flatpak
     git
-    gnome-font-viewer
     gst-plugin-pipewire
     gwenview
+    haruna
     kdeconnect
     konsole
-    latte-dock
+    *latte-dock
     libdbusmenu-glib
     libdbusmenu-gtk2
     libdbusmenu-gtk3
@@ -46,7 +47,7 @@ Pre-Installed
     pipewire-pulse
     plasma-meta
     plasma-wayland-session
-    plasma5-applets-window-buttons
+    *plasma5-applets-window-buttons
     python-pip
     sddm
     spectacle
@@ -61,7 +62,6 @@ Pacman
     papirus-icon-theme
     !telegram-desktop
     ttf-roboto-mono
-    *vlc
     *xbindkeys xdotool xsel
 
 AUR
