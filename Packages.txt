@@ -1,49 +1,3 @@
-Pre-Installed:
-    base
-    linux-firmware
-
-    base-devel
-    bluez
-    dosfstools
-    efibootmgr
-    grub 
-    networkmanager
-    vim
-
-    flatpak
-    git
-    gst-plugin-pipewire
-    neofetch
-    pipewire
-    pipewire-alsa
-    pipewire-pulse
-    python-pip
-
-    linux
-    linux-headers
-  or
-    linux-zen
-    linux-zen-headers
-
-    amd-ucode
-  or
-    intel-ucode
-
-    nvidia
-    nvidia-settings
-  or
-    egl-wayland
-    libva-mesa-driver
-    vulkan-radeon
-    xf86-video-ati
-
-  /*
-    mtools
-    ntfs-3g
-    os-prober
-  */
-
-
 Pacman:
     discord
     obs-studio
@@ -106,3 +60,49 @@ KDE Plasma:
     latte-dock
     plasma5-applets-window-buttons
   /*
+
+
+Pre-Installed:
+    base
+    linux-firmware
+
+    base-devel
+    bluez
+    dosfstools
+    efibootmgr
+    grub 
+    networkmanager
+    vim
+
+    flatpak
+    git
+    gst-plugin-pipewire
+    neofetch
+    pipewire
+    pipewire-alsa
+    pipewire-pulse
+    python-pip
+
+    linux
+    linux-headers
+  or
+    linux-zen
+    linux-zen-headers
+
+    amd-ucode
+  or
+    intel-ucode
+
+    nvidia
+    nvidia-settings
+  or
+    egl-wayland
+    libva-mesa-driver
+    vulkan-radeon
+    xf86-video-ati
+
+  /*
+    mtools
+    ntfs-3g
+    os-prober
+  */
