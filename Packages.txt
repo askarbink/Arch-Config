@@ -22,6 +22,8 @@ AUR:
     authy
     bombsquad
     minecraft-launcher
+    obinskit
+    openrazer-meta
     zoom
 
     bibata-cursor-theme
