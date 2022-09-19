@@ -1,78 +1,108 @@
-Pre-Installed
+Pre-Installed:
     base
-    linux
     linux-firmware
 
-    *amd-ucode
     base-devel
-    bc
     bluez
     dosfstools
     efibootmgr
-    *intel-ucode
-    grub
-    linux-headers
-    mtools
+    grub 
     networkmanager
-    ntfs-3g
-    os-prober
     vim
 
-    *nvidia
-    *nvidia-settings
-    *libva-mesa-driver
-    *vulkan-radeon
-    *xf86-video-ati
-
-    ark
-    dolphin
-    *egl-wayland
-    elisa
     flatpak
     git
     gst-plugin-pipewire
-    gwenview
-    haruna
+    neofetch
+    pipewire
+    pipewire-alsa
+    pipewire-pulse
+    python-pip
+
+    linux
+    linux-headers
+  or
+    linux-zen
+    linux-zen-headers
+
+    amd-ucode
+  or
+    intel-ucode
+
+    nvidia
+    nvidia-settings
+  or
+    egl-wayland
+    libva-mesa-driver
+    vulkan-radeon
+    xf86-video-ati
+
+  /*
+    mtools
+    ntfs-3g
+    os-prober
+  */
+
+
+Pacman:
+    discord
+    obs-studio
+    telegram-desktop
+
+    papirus-icon-theme
+    ttf-roboto-mono
+
+  */
+    inkscape
+    kdenlive mediainfo
+    krita
+  /*
+
+
+AUR:
+    yay
+
+    google-chrome
+    visual-studio-code-bin
+
+    authy
+    bombsquad
+    minecraft-launcher
+    zoom
+
+    bibata-cursor-theme
+    ttf-google-sans
+
+
+GNOME:
+    …
+
+
+KDE Plasma:
+    plasma-meta
+    plasma-wayland-session
+    sddm
+
     kdeconnect
-    konsole
-    *latte-dock
     libdbusmenu-glib
     libdbusmenu-gtk2
     libdbusmenu-gtk3
     libdbusmenu-qt5
     libdbusmenu-qt6
-    neofetch
-    pipewire
-    pipewire-alsa
-    pipewire-pulse
-    plasma-meta
-    plasma-wayland-session
-    *plasma5-applets-window-buttons
-    python-pip
-    sddm
+    print-manager
+
+    ark
+    dolphin
+    elisa
+    gwenview
+    haruna
+    konsole
     spectacle
-
-Pacman
-    discord
-    *inkscape
-    *kdenlive mediainfo
-    *krita
-    *kvantum
-    obs-studio
-    papirus-icon-theme
-    !telegram-desktop
-    ttf-roboto-mono
-    *xbindkeys xdotool xsel
-
-AUR
+    
+  */
     aritim-dark-gtk-git
     aritim-dark-kde-git
-    authy
-    bibata-cursor-theme
-    bombsquad
-    !google-chrome
-    minecraft-launcher
-    ttf-google-sans
-    !visual-studio-code-bin
-    !yay
-    zoom
+    kvantum
+    latte-dock
+    plasma5-applets-window-buttons
+  /*
