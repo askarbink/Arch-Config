@@ -33,6 +33,7 @@ AUR:
 
 GNOME:
     gnome-browser-connector
+    gnome-tweaks
 
 
 KDE Plasma:
@@ -81,7 +82,6 @@ Pre-Installed:
     git
     gst-plugin-pipewire
     neofetch
-    pipewire
     pipewire-alsa
     pipewire-pulse
     python-pip
