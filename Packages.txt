@@ -7,12 +7,6 @@ Pacman:
     papirus-icon-theme
     ttf-roboto-mono
 
-  */
-    inkscape
-    kdenlive mediainfo
-    krita
-  /*
-
 
 AUR:
     yay
@@ -21,7 +15,6 @@ AUR:
     visual-studio-code-bin
 
     authy
-    bombsquad
     minecraft-launcher
     obinskit
     openrazer-meta
@@ -30,10 +23,41 @@ AUR:
     bibata-cursor-theme
     ttf-google-sans
 
+  # bombsquad
+
 
 GNOME:
+    gdm
+
     gnome-browser-connector
+    gnome-control-center
+    gnome-keyring
+    gnome-menus
+    gnome-remote-desktop
+    gnome-shell-extensions
+    gnome-user-share
+    gvfs-afc
+    gvfs-goa
+    gvfs-google
+    gvfs-gphoto2
+    gvfs-mtp
+    gvfs-nfs
+    gvfs-smb
+    rygel
+    xdg-user-dirs-gtk
+
+    eog
+    file-roller
+    gnome-calculator
+    gnome-clocks
+    gnome-font-viewer
+    gnome-system-monitor
+    gnome-terminal
     gnome-tweaks
+    nautilus
+    simple-scan
+    sushi
+    totem
 
 
 KDE Plasma:
@@ -56,14 +80,6 @@ KDE Plasma:
     haruna
     konsole
     spectacle
-    
-  */
-    aritim-dark-gtk-git
-    aritim-dark-kde-git
-    kvantum
-    latte-dock
-    plasma5-applets-window-buttons
-  /*
 
 
 Pre-Installed:
