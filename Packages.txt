@@ -25,11 +25,12 @@ AUR:
 
   # bombsquad
 
+  # gnome-browser-connector
+
 
 GNOME:
     gdm
 
-    gnome-browser-connector
     gnome-control-center
     gnome-keyring
     gnome-menus
