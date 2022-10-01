@@ -123,10 +123,10 @@ mount /dev/$efisystem /mnt/boot
 
 *If doing dual boot:*
 ```sh
-mkdir /mnt/C:
-mkdir /mnt/D:
-mount /dev/$windowsc /mnt/C:
-mount /dev/$windowsd /mnt/D:
+mkdir /mnt/c
+mkdir /mnt/d
+mount /dev/$windowsc /mnt/c
+mount /dev/$windowsd /mnt/d
 ```
 
 <br>
