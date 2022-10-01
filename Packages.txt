@@ -1,6 +1,7 @@
 Pacman:
     android-tools
     discord
+    gdb
     obs-studio
     telegram-desktop
 
