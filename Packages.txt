@@ -23,6 +23,7 @@ AUR:
 
     bibata-cursor-theme
     ttf-google-sans
+    ttf-times-new-roman
 
   # bombsquad
 
