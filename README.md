@@ -27,7 +27,7 @@ iwctl
 
 To get all the available devices:
 ```sh
-    device list
+	device list
 ```
 To scan and get all the available networks:
 ```sh
@@ -372,6 +372,14 @@ makepkg -si
 
 <br>
 
+*If installing GNOME:*
+```sh
+yay -S mutter-rounded
+```
+
+<br>
+
+**All needed packages:**
 ```sh
 yay -S $packages
 ```
