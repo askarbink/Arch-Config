@@ -15,31 +15,45 @@ To cancel an operation:
 
 <br>
 
+If qoutes (`"…"`) in commands only contain one word, you may omit them.
+
+<br>
+
 ## Connecting to Wi-Fi
 
 ```sh
 iwctl
 ```
 
+To get all the available devices:
 ```sh
     device list
-    station $device scan
-    station $device get-networks
-    station $device connect $ssid
-    $passphrase
+```
+To scan and get all the available networks:
+```sh
+	station $device scan
+	station $device get-networks
+```
+To connect to the network:
+```sh
+	station $device connect $ssid
+```
+```sh
+	$passphrase
 ```
 
 <br>
 
 To check connection:
 ```sh
-    station $device show
+	station $device show
 ```
 
 <br>
 
+To exit:
 ```sh
-    exit
+	exit
 ```
 
 <br>
@@ -51,7 +65,7 @@ rfkill unblock wifi
 
 <br>
 
-## Pre-Installation
+## Basic Installation
 
 To check connection:
 ```sh
@@ -102,7 +116,7 @@ fdisk /dev/$disk
 
 To help:
 ```sh
-    m
+	m
 ```
 
 <br>
@@ -146,7 +160,7 @@ pacstrap /mnt base linux-zen linux-firmware
 
 <br>
 
-**To generate the file system table:**
+**To generate a file system table:**
 ```sh
 genfstab -U /mnt >> /mnt/etc/fstab
 ```
@@ -160,106 +174,258 @@ arch-chroot /mnt
 
 <br>
 
-## …
+To show timezones:
+```sh
+timedatectl list-timezones | grep $location
+```
 
-“timedatectl list-timezones | grep $location” to show timezones.
+<br>
 
+**To set the Yekaterinburg’s timezone:**
+```sh
 ln -sf /usr/share/zoneinfo/Asia/Yekaterinburg /etc/localtime
+```
 
+<br>
+
+**To synchronize time with hardware clocks:**
+```sh
 hwclock --systohc
+```
 
-pacman -S
-  /*
-    bluez
-    cups
-    mtools
-    ntfs-3g
-    os-prober
-  */
+<br>
 
-    $cpu-ucode
-    base-devel
-    dosfstools
-    efibootmgr
-    grub
-    linux-zen-headers
-    networkmanager
-    vim
+```sh
+pacman -S $packages
+```
+**Packages:** `base-devel` `dosfstools` `efibootmgr` `grub` `linux-zen-headers` `networkmanager` `vim`
+<br>
+If AMD CPU: `amd-ucode`
+<br>
+If Intel CPU: `intel-ucode`
+<br>
+*If doing dual boot:* `mtools` `ntfs-3g` `os-prober`
 
-systemctl enable bluetooth
-systemctl enable cups
+<br>
+
+**To autostart Wi-Fi:**
+```sh
 systemctl enable NetworkManager
+```
 
+<br>
+
+**To configure localizations:**
+```sh
 vim /etc/locale.gen
+```
+Remove `#` before `en_US.UTF-8 UTF-8`.
 
-Remove “#” before “en_US.UTF-8 UTF-8”.
+<br>
 
+**To generate the lozalization:**
+```sh
 locale-gen
+```
 
+<br>
+
+**To set the system language:**
+```sh
 echo "LANG=en_US.UTF-8" > /etc/locale.conf
+```
 
+<br>
+
+**To set the hostname:**
+```sh
 echo "$hostname" > /etc/hostname
+```
 
+<br>
+
+**To configure hosts:**
+```sh
 vim /etc/hosts
-“““
-127.0.0.1 localhost
-::1 localhost
-127.0.1.1 $hostname.localdomain $hostname
-”””
+```
+Write here:
+```
+127.0.0.1	localhost
+::1		localhost
+127.0.1.1	$hostname.localdomain	$hostname
+```
 
+<br>
+
+**To set the root password:**
+```sh
 passwd
+```
+```sh
 $password
 $password
+```
 
+<br>
+
+**To add a user:**
+```sh
 useradd -m $username
+```
+To set their password:
+```sh
 passwd $username
+```
+```sh
 $password
 $password
-
+```
+To make them a super user:
+```sh
 usermod -aG wheel $username
+```
 
-“userdbctl groups-of-user $username” to check.
+To check the user groups:
+```
+userdbctl groups-of-user $username
+```
 
+<br>
+
+**To configure the wheel group rights:**
+```sh
 EDITOR=vim visudo
-Remove “# ” before “%wheel ALL=(ALL:ALL) ALL”.
+```
+Remove `# ` before `%wheel ALL=(ALL:ALL) ALL`.
 
+<br>
+
+*To configure the bootloader:*
+```sh
 vim /etc/default/grub
+```
+*If using Wayland under an NVIDIA GPU, add `nvidia_drm.modeset=1` to `GRUB_CMDLINE_LINUX_DEFAULT`.*
+<br>
+*If doing dual boot, remove `#` before `GRUB_DISABLE_OS_PROBER=false`.*
 
-Add “nvidia_drm.modeset=1” to “GRUB_CMDLINE_LINUX_DEFAULT”. 
+<br>
 
-Remove “#” before “GRUB_DISABLE_OS_PROBER=false”.
-
-grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id="Arch Linux"
-
+**To install the bootloader:**
+```sh
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id="$bootloaderid"
+```
+```sh
 grub-mkconfig -o /boot/grub/grub.cfg
+```
 
+<br>
+
+**To boot into the system:**
+```sh
 exit
 umount -a
 reboot
+```
 
+<br>
+
+## Installing Drivers and Desktop Environment
+
+<br>
+
+**Log in to your user account.**
+
+<br>
+
+*If doing dual boot:*
+```sh
 sudo os-prober
-
+```
+```sh
 sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
 
+<br>
+
+To connect to Wi-Fi:
+```sh
 sudo nmtui
+```
 
+<br>
+
+To update everything:
+```sh
 sudo pacman -Syyu
+```
 
-sudo pacman -S
-    nvidia-dkms
-    nvidia-settings
-  or
-    egl-wayland
-    libva-mesa-driver
-    vulkan-radeon
-    xf86-video-ati
+<br>
 
-    flatpak
-    git
-    gst-plugin-pipewire
-    neofetch
-    pipewire-alsa
-    pipewire-pulse
-    python-pip
+**To install `yay`:**
+```sh
+sudo pacman -S git
+cd /tmp
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
 
-sudo systemctl enable $dm
+<br>
+
+```sh
+yay -S $packages
+```
+**Audio:** `gst-plugin-pipewire` `pipewire-alsa` `pipewire-pulse`
+<br>
+If AMD GPU: `libva-mesa-driver` `vulkan-radeon` `xf86-video-ati`
+<br>
+If NVIDIA GPU: `nvidia-dkms` `nvidia-settings`
+<br>
+GNOME: `gdm` `gnome-browser-connector` `gnome-control-center` `gnome-keyring` `gnome-menus` `gnome-remote-desktop` `gnome-shell-extensions` `gnome-user-share` `gvfs-afc` `gvfs-goa` `gvfs-google` `gvfs-gphoto2` `gvfs-mtp` `gvfs-nfs` `gvfs-smb` `rygel` `xdg-user-dirs-gtk`
+<br>
+GNOME Applications: `eog` `file-roller` `gnome-calculator` `gnome-clocks` `gnome-font-viewer` `gnome-system-monitor` `gnome-terminal` `gnome-tweaks` `nautilus` `simple-scan` `sushi` `totem`
+<br>
+KDE Plasma: `kdeconnect` `libdbusmenu-glib` `libdbusmenu-gtk2` `libdbusmenu-gtk3` `libdbusmenu-qt5` `libdbusmenu-qt6` `plasma-meta` `plasma-wayland-session` `print-manager` `sddm`
+<br>
+KDE Applications: `ark` `dolphin` `elisa` `gwenview` `haruna` `konsole` `spectacle` `youtube-dl`
+<br>
+*If needed Bluetooth:* `bluez`
+<br>
+*If needed to use printers:* `cups`
+<br>
+*Appearance:* `bibata-cursor-theme` `papirus-icon-theme` `ttf-google-sans` `ttf-roboto-mono` `ttf-times-new-roman`
+<br>
+*Additional packages:* `android-tools` `flatpak` `gdb` `neofetch` `python-pip`
+<br>
+*Applications:* `authy` `discord` `google-chrome` `obs-studio` `telegram-desktop` `visual-studio-code-bin` `zoom`
+<br>
+*Other:* `bommbsquad` `minecraft-launcher` `obinskit` `openrazer-meta`
+
+<br>
+
+*If installed `bluez`*:
+```sh
+sudo systemctl enable bluetooth
+```
+*If installed `cups`*:
+```sh
+sudo systemctl enable cups
+```
+
+<br>
+
+If installed GNOME:
+```sh
+sudo systemctl enable gdm
+```
+If installed KDE Plasma:
+```sh
+sudo systemctl enable sddm
+```
+
+<br>
+
+**To boot into the system:**
+```sh
+reboot
+```
