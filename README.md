@@ -80,7 +80,11 @@ ping $sitename
 timedatectl set-ntp true
 ```
 
-<br>
+**To syncronize real time clock with with the local timezone:**
+
+```sh
+timedatectl set-local-rtc true
+```
 
 To check:
 ```sh
@@ -93,8 +97,6 @@ To show partition types:
 ```sh
 fdisk -l
 ```
-
-<br>
 
 To show mountpoints:
 ```sh
@@ -111,8 +113,6 @@ To partition:
 ```sh
 fdisk /dev/$disk
 ```
-
-<br>
 
 To help:
 ```sh
@@ -133,8 +133,6 @@ mkdir /mnt/boot
 mount /dev/$efisystem /mnt/boot
 ```
 
-<br>
-
 *If doing dual boot:*
 ```sh
 mkdir /mnt/c
@@ -142,8 +140,6 @@ mkdir /mnt/d
 mount /dev/$windowsc /mnt/c
 mount /dev/$windowsd /mnt/d
 ```
-
-<br>
 
 *If doing swap:*
 ```sh
