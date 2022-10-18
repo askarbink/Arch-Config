@@ -389,7 +389,7 @@ GNOME: `gdm` `gnome-browser-connector` `gnome-control-center` `gnome-keyring` `g
 <br>
 GNOME Applications: `eog` `file-roller` `gnome-calculator` `gnome-clocks` `gnome-font-viewer` `gnome-system-monitor` `gnome-terminal` `gnome-tweaks` `nautilus` `simple-scan` `sushi` `totem`
 <br>
-KDE Plasma: `kdeconnect` `libdbusmenu-glib` `libdbusmenu-gtk2` `libdbusmenu-gtk3` `libdbusmenu-qt5` `libdbusmenu-qt6` `plasma-meta` `plasma-wayland-session` `print-manager` `sddm`
+KDE Plasma: `kdeconnect` `libdbusmenu-glib` `libdbusmenu-gtk2` `libdbusmenu-gtk3` `libdbusmenu-qt5` `libdbusmenu-qt6` `plasma` `plasma-wayland-session` `print-manager`
 <br>
 KDE Applications: `ark` `dolphin` `elisa` `gwenview` `haruna` `konsole` `spectacle` `youtube-dl`
 <br>
@@ -397,13 +397,13 @@ KDE Applications: `ark` `dolphin` `elisa` `gwenview` `haruna` `konsole` `spectac
 <br>
 *If needed to use printers:* `cups`
 <br>
-*Appearance:* `bibata-cursor-theme` `papirus-icon-theme` `ttf-google-sans` `ttf-roboto-mono` `ttf-times-new-roman`
+*Appearance:* `bibata-cursor-theme` `papirus-icon-theme` `ttf-google-sans` `ttf-roboto-mono` `ttf-times-new-roman` `ttf-unifont`
 <br>
 *Additional packages:* `android-tools` `flatpak` `gdb` `neofetch` `python-pip`
 <br>
 *Applications:* `authy` `discord` `google-chrome` `obs-studio` `telegram-desktop` `visual-studio-code-bin` `zoom`
 <br>
-*Other:* `bommbsquad` `minecraft-launcher` `obinskit` `openrazer-meta`
+*Other:* `bombsquad` `minecraft-launcher` `obinskit` `openrazer-meta`
 
 <br>
 
