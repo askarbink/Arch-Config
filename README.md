@@ -123,28 +123,27 @@ To help:
 
 **To make filesystems:**
 ```sh
-mkfs.fat -F 32 /dev/$efisystem
-mkfs.btrfs -L $label /dev/$linuxfilesystem -f
+mkfs.fat -F 32 /dev/$efi_system
+mkfs.btrfs -L $label /dev/$linux_file_system -f
 ```
 
 ```sh
-mount -o compress=lzo /dev/$linuxfilesystem /mnt
+mount -o compress=lzo /dev/$linux_file_system /mnt
 mkdir /mnt/boot
-mount /dev/$efisystem /mnt/boot
+mount /dev/$efi_system /mnt/boot
 ```
 
 *If doing dual boot:*
 ```sh
-mkdir /mnt/c
-mkdir /mnt/d
-mount /dev/$windowsc /mnt/c
-mount /dev/$windowsd /mnt/d
+mkdir /mnt/c /mnt/d
+mount /dev/$windows_c /mnt/c
+mount /dev/$windows_d /mnt/d
 ```
 
 *If doing swap:*
 ```sh
-mkswap /dev/$linuxswap
-swapon /dev/$linuxswap
+mkswap /dev/$linux_swap
+swapon /dev/$linux_swap
 ```
 
 <br>
@@ -194,7 +193,7 @@ hwclock --systohc
 ```sh
 pacman -S $packages
 ```
-**Packages:** `base-devel` `dosfstools` `efibootmgr` `grub` `linux-zen-headers` `networkmanager` `vim`
+**Packages:** `base-devel` `dosfstools` `efibootmgr` `grub` `linux-zen-headers` `neovim` `networkmanager`
 <br>
 If AMD CPU: `amd-ucode`
 <br>
@@ -213,7 +212,7 @@ systemctl enable NetworkManager
 
 **To configure localizations:**
 ```sh
-vim /etc/locale.gen
+nvim /etc/locale.gen
 ```
 Remove `#` before `en_US.UTF-8 UTF-8`.
 
@@ -228,21 +227,21 @@ locale-gen
 
 **To set the system language:**
 ```sh
-echo "LANG=en_US.UTF-8" > /etc/locale.conf
+echo LANG=en_US.UTF-8 > /etc/locale.conf
 ```
 
 <br>
 
 **To set the hostname:**
 ```sh
-echo "$hostname" > /etc/hostname
+echo $hostname > /etc/hostname
 ```
 
 <br>
 
 **To configure hosts:**
 ```sh
-vim /etc/hosts
+nvim /etc/hosts
 ```
 Write here:
 ```
@@ -290,7 +289,7 @@ userdbctl groups-of-user $username
 
 **To configure the wheel group rights:**
 ```sh
-EDITOR=vim visudo
+EDITOR=nvim visudo
 ```
 Remove `# ` before `%wheel ALL=(ALL:ALL) ALL`.
 
@@ -308,7 +307,7 @@ vim /etc/default/grub
 
 **To install the bootloader:**
 ```sh
-grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id="$bootloaderid"
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=$bootloader_id
 ```
 ```sh
 grub-mkconfig -o /boot/grub/grub.cfg
