@@ -297,11 +297,11 @@ Remove `# ` before `%wheel ALL=(ALL:ALL) ALL`.
 
 *To configure the bootloader:*
 ```sh
-vim /etc/default/grub
+nvim /etc/default/grub
 ```
 *If using Wayland under an NVIDIA GPU, add `nvidia_drm.modeset=1` to `GRUB_CMDLINE_LINUX_DEFAULT`.*
 <br>
-*If doing dual boot, remove `#` before `GRUB_DISABLE_OS_PROBER=false`.*
+*If doing dual boot, set `GRUB_DEFAULT` to `saved` and remove `#` before `GRUB_DISABLE_OS_PROBER=false`.*
 
 <br>
 
