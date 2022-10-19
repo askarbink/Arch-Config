@@ -388,9 +388,9 @@ GNOME: `gdm` `gnome-browser-connector` `gnome-control-center` `gnome-keyring` `g
 <br>
 GNOME Applications: `eog` `file-roller` `gnome-calculator` `gnome-clocks` `gnome-font-viewer` `gnome-system-monitor` `gnome-terminal` `gnome-tweaks` `nautilus` `simple-scan` `sushi` `totem`
 <br>
-KDE Plasma: `kdeconnect` `libdbusmenu-glib` `libdbusmenu-gtk2` `libdbusmenu-gtk3` `libdbusmenu-qt5` `libdbusmenu-qt6` `plasma` `plasma-wayland-session` `print-manager`
+KDE Plasma: `ghostscript` `kdeconnect` `libdbusmenu-glib` `libdbusmenu-gtk2` `libdbusmenu-gtk3` `libdbusmenu-qt5` `libdbusmenu-qt6` `plasma` `plasma-wayland-session` `print-manager`
 <br>
-KDE Applications: `ark` `dolphin` `elisa` `gwenview` `haruna` `konsole` `spectacle` `youtube-dl`
+KDE Applications: `ark` `dolphin` `elisa` `gwenview` `haruna` `konsole` `scanlite` `spectacle` `youtube-dl`
 <br>
 *If needed Bluetooth:* `bluez`
 <br>
