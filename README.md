@@ -390,7 +390,7 @@ GNOME Applications: `eog` `file-roller` `gnome-calculator` `gnome-clocks` `gnome
 <br>
 KDE Plasma: `ghostscript` `kdeconnect` `libdbusmenu-glib` `libdbusmenu-gtk2` `libdbusmenu-gtk3` `libdbusmenu-qt5` `libdbusmenu-qt6` `plasma` `plasma-wayland-session` `print-manager`
 <br>
-KDE Applications: `ark` `dolphin` `elisa` `gwenview` `haruna` `konsole` `scanlite` `spectacle` `youtube-dl`
+KDE Applications: `ark` `dolphin` `elisa` `gwenview` `haruna` `konsole` `skanlite` `spectacle` `youtube-dl`
 <br>
 *If needed Bluetooth:* `bluez`
 <br>
