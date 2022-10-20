@@ -203,6 +203,25 @@ If Intel CPU: `intel-ucode`
 
 <br>
 
+*If there’s an error while installing packages, try this:*
+```sh
+rm -r /etc/pacman.d/gnupg/
+```
+```sh
+pacman-key --init
+```
+```sh
+pacman-key --populate archlinux
+```
+```sh
+pacman -Sc
+```
+```
+pacman -Syyu
+```
+
+<br>
+
 **To autostart Wi-Fi:**
 ```sh
 systemctl enable NetworkManager
