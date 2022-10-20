@@ -194,7 +194,7 @@ hwclock --systohc
 pacman -S $packages
 ```
 **Packages:** `base-devel` `dosfstools` `efibootmgr` `grub` `linux-zen-headers` `neovim` `networkmanager`
-<br>
+<br>onlyoffice-bin
 If AMD CPU: `amd-ucode`
 <br>
 If Intel CPU: `intel-ucode`
@@ -405,9 +405,7 @@ If AMD GPU: `libva-mesa-driver` `vulkan-radeon` `xf86-video-ati`
 <br>
 If NVIDIA GPU: `nvidia-dkms` `nvidia-settings`
 <br>
-GNOME: `gdm` `gnome-browser-connector` `gnome-control-center` `gnome-keyring` `gnome-menus` `gnome-remote-desktop` `gnome-shell-extensions` `gnome-user-share` `gvfs-afc` `gvfs-goa` `gvfs-google` `gvfs-gphoto2` `gvfs-mtp` `gvfs-nfs` `gvfs-smb` `rygel` `xdg-user-dirs-gtk`
-<br>
-GNOME Applications: `eog` `file-roller` `gnome-calculator` `gnome-clocks` `gnome-font-viewer` `gnome-system-monitor` `gnome-terminal` `gnome-tweaks` `nautilus` `simple-scan` `sushi` `totem`
+GNOME: `gnome` `gnome-browser-connector` `gnome-tweaks`
 <br>
 KDE Plasma: `ghostscript` `kdeconnect` `libdbusmenu-glib` `libdbusmenu-gtk2` `libdbusmenu-gtk3` `libdbusmenu-qt5` `libdbusmenu-qt6` `plasma` `plasma-wayland-session` `print-manager`
 <br>
@@ -421,7 +419,7 @@ KDE Applications: `ark` `dolphin` `elisa` `gwenview` `haruna` `konsole` `skanlit
 <br>
 *Additional packages:* `android-tools` `flatpak` `gdb` `neofetch` `python-pip`
 <br>
-*Applications:* `authy` `discord` `google-chrome` `obs-studio` `telegram-desktop` `visual-studio-code-bin` `zoom`
+*Applications:* `authy` `discord` `google-chrome` `obs-studio` `onlyoffice-bin` `telegram-desktop` `visual-studio-code-bin` `zoom`
 <br>
 *Other:* `bombsquad` `minecraft-launcher` `obinskit` `openrazer-meta`
 
