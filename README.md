@@ -80,12 +80,6 @@ ping $sitename
 timedatectl set-ntp true
 ```
 
-**To syncronize real time clock with with the local timezone:**
-
-```sh
-timedatectl set-local-rtc true
-```
-
 To check:
 ```sh
 timedatectl status
@@ -194,7 +188,7 @@ hwclock --systohc
 pacman -S $packages
 ```
 **Packages:** `base-devel` `dosfstools` `efibootmgr` `grub` `linux-zen-headers` `neovim` `networkmanager`
-<br>onlyoffice-bin
+<br>
 If AMD CPU: `amd-ucode`
 <br>
 If Intel CPU: `intel-ucode`
@@ -425,22 +419,22 @@ KDE Applications: `ark` `dolphin` `elisa` `gwenview` `haruna` `konsole` `skanlit
 
 <br>
 
-*If installed `bluez`*:
+*If installed `bluez`:*
 ```sh
 sudo systemctl enable bluetooth
 ```
-*If installed `cups`*:
+*If installed `cups`:*
 ```sh
 sudo systemctl enable cups
 ```
 
 <br>
 
-If installed GNOME:
+*If installed GNOME:*
 ```sh
 sudo systemctl enable gdm
 ```
-If installed KDE Plasma:
+*If installed KDE Plasma:*
 ```sh
 sudo systemctl enable sddm
 ```
@@ -450,4 +444,9 @@ sudo systemctl enable sddm
 **To boot into the system:**
 ```sh
 reboot
+```
+
+*If doing dual boot:*
+```sh
+timedatectl set-local-rtc true
 ```
