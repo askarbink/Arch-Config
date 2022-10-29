@@ -394,7 +394,7 @@ yay -S mutter-rounded
 ```sh
 yay -S $packages
 ```
-**Audio:** `gst-plugin-pipewire` `pipewire-alsa` `pipewire-pulse`
+**Audio:** `gst-plugin-pipewire` `pipewire-alsa` `pipewire-jack` `pipewire-pulse` `wireplumber`
 <br>
 If AMD GPU: `libva-mesa-driver` `vulkan-radeon` `xf86-video-ati`
 <br>
