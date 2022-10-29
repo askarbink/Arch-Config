@@ -187,14 +187,15 @@ hwclock --systohc
 ```sh
 pacman -S $packages
 ```
-**Packages:** `base-devel` `dosfstools` `efibootmgr` `grub` `linux-zen-headers` `neovim` `networkmanager`
+**Packages:** `base-devel` `efibootmgr` `grub` `linux-zen-headers` `neovim` `networkmanager`
 <br>
 If AMD CPU: `amd-ucode`
 <br>
 If Intel CPU: `intel-ucode`
 <br>
-*If doing dual boot:* `mtools` `ntfs-3g` `os-prober`
-
+*If doing dual boot:* `ntfs-3g` `os-prober`
+<br>
+*Archive:* `dosfstools` `mtools`
 <br>
 
 *If there’s an error while installing packages, try this:*
