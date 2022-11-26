@@ -1,4 +1,4 @@
-# Arch Linux Installation Guide
+# Arch Linux Installation Guide (Outdated)
 
 <br>
 
@@ -410,7 +410,7 @@ KDE Applications: `ark` `dolphin` `elisa` `gwenview` `haruna` `konsole` `skanlit
 <br>
 *If needed to use printers:* `cups`
 <br>
-*Appearance:* `bibata-cursor-theme` `papirus-icon-theme` `ttf-google-sans` `ttf-roboto-mono` `ttf-times-new-roman` `ttf-unifont`
+*Appearance:* `bibata-cursor-theme` `papirus-icon-theme` `ttf-google-sans` `ttf-firacode-nerd` `ttf-times-new-roman` `ttf-unifont`
 <br>
 *Additional packages:* `android-tools` `flatpak` `gdb` `neofetch` `python-pip`
 <br>
