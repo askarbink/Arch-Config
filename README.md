@@ -372,11 +372,11 @@ sudo pacman -Syyu
 
 <br>
 
-**To install `yay`:**
+**To install `paru`:**
 ```sh
 sudo pacman -S git
 cd /tmp
-git clone https://aur.archlinux.org/yay.git
+git clone https://aur.archlinux.org/paru.git
 cd yay
 makepkg -si
 ```
@@ -385,14 +385,14 @@ makepkg -si
 
 *If installing GNOME:*
 ```sh
-yay -S mutter-rounded
+paru -S mutter-rounded
 ```
 
 <br>
 
 **All needed packages:**
 ```sh
-yay -S $packages
+paru -S $packages
 ```
 **Audio:** `gst-plugin-pipewire` `pipewire-alsa` `pipewire-jack` `pipewire-pulse` `wireplumber`
 <br>
