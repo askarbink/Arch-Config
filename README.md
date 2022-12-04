@@ -277,9 +277,9 @@ $password
 
 <br>
 
-**To add a user:**
+**To create a user and add them to the wheel group:**
 ```sh
-useradd -m $username
+useradd -mG wheel $username
 ```
 To set their password:
 ```sh
@@ -288,10 +288,6 @@ passwd $username
 ```sh
 $password
 $password
-```
-To make them a super user:
-```sh
-usermod -aG wheel $username
 ```
 
 To check the user groups:
