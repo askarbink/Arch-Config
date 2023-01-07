@@ -142,9 +142,16 @@ swapon /dev/$linux_swap
 
 <br>
 
+*For you safety, you may execute this command:*
+```sh
+pacman -Sy archlinux-keyring
+```
+
+<br>
+
 **To install the minimal system:**
 ```sh
-pacstrap /mnt base linux-zen linux-firmware
+pacstrap -K /mnt base linux-zen linux-firmware
 ```
 
 <br>
